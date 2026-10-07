@@ -1,0 +1,24 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE / Editor configs
+.vscode/
+.idea/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Processing runtime outputs and logs
+logs/*.log
+output/*.xlsx
+output/*.txt
+!output/.gitkeep
